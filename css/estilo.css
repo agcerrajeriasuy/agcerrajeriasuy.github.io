@@ -35,7 +35,7 @@ h1 {
   
   text-align: center;
   font-size: 6em;
-  line-height: .7;
+  line-height: .8;
   
   color: var(--color-title);
   text-shadow: 0 2px 2px #0007;
@@ -101,7 +101,9 @@ img {
 }
 
 svg {
-  display: block;
+  display: inline-block;
+  vertical-align: middle;
+  
   fill: var(--color-ppal);
   
   transition: fill .4s;
@@ -123,5 +125,9 @@ a:hover svg {
   
   nav a:first-of-type {
     order: -1;
+  }
+  
+  nav a svg {
+    display: block;
   }
 }
