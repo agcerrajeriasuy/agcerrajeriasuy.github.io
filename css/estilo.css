@@ -1,7 +1,7 @@
 :root {
   --sombra: 0 .2em .2em #000a;
-  --color-ppal: #000;
-  --color-title: #000;
+  --color-ppal: #1d3557;
+  --color-title: #1d3557;
   
   --color-base: #034078;
   --color-bg: #fff;
@@ -21,16 +21,13 @@ html {
   overflow: hidden;
   overflow-y: auto;
   
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
+  min-height: 100vh;
   
   font-family: Helvetica, Arial, sans-serif;
   font-size: 16px;
   
   color: var(--color-ppal);
-  background: var(--color-bg);
+  background: linear-gradient(#fff,#b7cece)
 }
 
 h1 {
